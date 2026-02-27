@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #1d538d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav {
+    background-color: #3a7bc8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #4a90d9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 20px auto;
+}
+
+thead {
+    background-color: #4a90d9;
+    color: white;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    font-size: 15px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.total-row {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4a90d9;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #3a7bc8;
+}
+
+.btn-remove {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+    background-color: #c9302c;
+}
+
+footer {
+    background-color: #4a90d9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

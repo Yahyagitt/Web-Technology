@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookstore - Shopping Cart</title>
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Bookstore</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="profile.html">Profile</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+
+    <div class="container">
+        <h2>Shopping Cart</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Book Title</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Great Adventure</td>
+                    <td>$12.99</td>
+                    <td>1</td>
+                    <td>$12.99</td>
+                    <td><button class="btn-remove">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Mystery Island</td>
+                    <td>$9.99</td>
+                    <td>2</td>
+                    <td>$19.98</td>
+                    <td><button class="btn-remove">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Learning HTML</td>
+                    <td>$15.50</td>
+                    <td>1</td>
+                    <td>$15.50</td>
+                    <td><button class="btn-remove">Remove</button></td>
+                </tr>
+                <tr class="total-row">
+                    <td colspan="3" style="text-align: right;">Total:</td>
+                    <td>$48.47</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="actions">
+            <a href="catalog.html" class="btn">Continue Shopping</a>
+            <a href="payment.html" class="btn">Proceed to Payment</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Bookstore. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

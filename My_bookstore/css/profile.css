@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #1d538d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav {
+    background-color: #3a7bc8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.profile-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.profile-box h2 {
+    text-align: center;
+    color: #4a90d9;
+    margin-top: 0;
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    line-height: 1.8;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+
+.profile-info strong {
+    display: inline-block;
+    width: 120px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4a90d9;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #3a7bc8;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #4a90d9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
